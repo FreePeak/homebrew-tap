@@ -11,7 +11,7 @@ class Commitgen < Formula
   on_macos do
     on_intel do
       url "https://github.com/FreePeak/commitgen/releases/download/v0.1.4/commitgen_Darwin_x86_64.tar.gz"
-      sha256 "a9402c19d91f385af0426d1631fbb9db869aa5f48d744dd16c3ad4310ef1c137"
+      sha256 "007652280684ac9ef8f75a15f88f40f99247c59923dd42dd5d275a660e04770b"
 
       def install
         bin.install "commitgen"
@@ -19,7 +19,7 @@ class Commitgen < Formula
     end
     on_arm do
       url "https://github.com/FreePeak/commitgen/releases/download/v0.1.4/commitgen_Darwin_arm64.tar.gz"
-      sha256 "539a46500f689deb70878797c24f06281250df1ced14009f8b349cdeb8e20670"
+      sha256 "eb9de69f6f182208dc587680996067f66a681840c1a7ba196051e82b4815b5ff"
 
       def install
         bin.install "commitgen"
@@ -31,7 +31,7 @@ class Commitgen < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/FreePeak/commitgen/releases/download/v0.1.4/commitgen_Linux_x86_64.tar.gz"
-        sha256 "f03e6768aae71ebd0367373f8fda5ef094658affadace37f89875f211f8a6e65"
+        sha256 "affb6c71f90d9768358c01e4c20f9a22580f063b8433501290d9752abd78f216"
 
         def install
           bin.install "commitgen"
@@ -41,7 +41,7 @@ class Commitgen < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/FreePeak/commitgen/releases/download/v0.1.4/commitgen_Linux_arm64.tar.gz"
-        sha256 "516b4f39665e9a2898782a6e3903d7e4f70e7ad053d5c7387720274052dc4f07"
+        sha256 "a5bc4b5a9a5fb34db30cb1fca0c616e8c0117b5f392ee58229b913bcec39ddac"
 
         def install
           bin.install "commitgen"
