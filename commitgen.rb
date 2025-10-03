@@ -5,21 +5,21 @@
 class Commitgen < Formula
   desc "AI-powered commit message generator"
   homepage "https://github.com/FreePeak/commitgen"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/FreePeak/commitgen/releases/download/v0.1.3/commitgen_Darwin_x86_64.tar.gz"
-      sha256 "b1db2b4db9367a1d72c471148f0425bdad86d562f18fd9455a05d6adf0780537"
+      url "https://github.com/FreePeak/commitgen/releases/download/v0.1.4/commitgen_Darwin_x86_64.tar.gz"
+      sha256 "a9402c19d91f385af0426d1631fbb9db869aa5f48d744dd16c3ad4310ef1c137"
 
       def install
         bin.install "commitgen"
       end
     end
     on_arm do
-      url "https://github.com/FreePeak/commitgen/releases/download/v0.1.3/commitgen_Darwin_arm64.tar.gz"
-      sha256 "34accfa342eea3293307797fb7b8331288eb30e9eaaaa3afc9d23227ba3c213e"
+      url "https://github.com/FreePeak/commitgen/releases/download/v0.1.4/commitgen_Darwin_arm64.tar.gz"
+      sha256 "539a46500f689deb70878797c24f06281250df1ced14009f8b349cdeb8e20670"
 
       def install
         bin.install "commitgen"
@@ -30,8 +30,8 @@ class Commitgen < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/FreePeak/commitgen/releases/download/v0.1.3/commitgen_Linux_x86_64.tar.gz"
-        sha256 "ed8a5e51032bebb0cabc050eafb46961195b152da14be4fae6a1e9b96aeba599"
+        url "https://github.com/FreePeak/commitgen/releases/download/v0.1.4/commitgen_Linux_x86_64.tar.gz"
+        sha256 "f03e6768aae71ebd0367373f8fda5ef094658affadace37f89875f211f8a6e65"
 
         def install
           bin.install "commitgen"
@@ -40,8 +40,8 @@ class Commitgen < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/FreePeak/commitgen/releases/download/v0.1.3/commitgen_Linux_arm64.tar.gz"
-        sha256 "6847553c81ff1a84ebfde3c1d557edcb29a23e1c40db00a1a7ee536ce36d15de"
+        url "https://github.com/FreePeak/commitgen/releases/download/v0.1.4/commitgen_Linux_arm64.tar.gz"
+        sha256 "516b4f39665e9a2898782a6e3903d7e4f70e7ad053d5c7387720274052dc4f07"
 
         def install
           bin.install "commitgen"
